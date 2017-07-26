@@ -1,14 +1,31 @@
-table, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
-}	
 
 table {
-	width: 75%;
+	width: 100%;
 	margin: auto;
 }
 
-button {
-	width: 100%;
-	font-size: 20px;
+a {
+	text-decoration: none;
+}
+
+th.nav {
+	background-color: black;
+	padding: 0px;
+	border: 0px;
+}
+
+th:hover.nav {
+	transition: 0.2s;
+	background-color: white;
+}
+
+p.nav {
+	margin: 0px;
+	padding: 10px;
+	color: white;
+}
+
+p:hover.nav {
+	transition: 0.2s;
+	color: black;
 }
